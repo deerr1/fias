@@ -1,0 +1,28 @@
+from django.contrib import admin
+from .models import *
+
+# Register your models here.
+admin.site.register(ActualStatus)
+admin.site.register(AddressObjectTypeLEVEL)
+admin.site.register(CenterStatus)
+admin.site.register(CurrentStatus)
+admin.site.register(OperationStatus)
+admin.site.register(Stead)
+admin.site.register(EstateStatus)
+admin.site.register(StructureStatus)
+admin.site.register(HouseStateStatus)
+admin.site.register(IntervalStatus)
+admin.site.register(FlatType)
+admin.site.register(RoomType)
+admin.site.register(Room)
+admin.site.register(Adress)
+admin.site.register(DelAdress)
+admin.site.register(House)
+admin.site.register(DelHouse)
+admin.site.register(HouseInterval)
+admin.site.register(DelHouseInterval)
+admin.site.register(Landmark)
+admin.site.register(DelLandmark)
+admin.site.register(NormativeDocumentType)
+admin.site.register(NormativeDocument)
+admin.site.register(DelNormativeDocument)
